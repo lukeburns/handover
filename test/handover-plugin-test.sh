@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 set -e
+export NODE_PRESERVE_SYMLINKS=1
 export HSD_NETWORK=regtest
 
 hsd \
